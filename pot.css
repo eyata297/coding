@@ -11,9 +11,12 @@ header{
     padding: 15px;
     text-align: center;
     color: white;
-
+  
+    border: 3px solid white;
+    border-radius: 15px;
 
 }
+
 nav ul{
     list-style: none;
 }
@@ -25,4 +28,6 @@ nav ul li a{
     text-decoration: none;
     font-size: 22px;
     color: white;
+    padding: 8px 12px;
+    border-bottom: 2px solid white;
 }
