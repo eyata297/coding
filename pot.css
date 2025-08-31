@@ -1,4 +1,4 @@
-body{
+ body{
 
     color: white;
     background: linear-gradient(to bottom ,yellow, #08ffef,#0afa1a,#fc084d );
@@ -30,4 +30,14 @@ nav ul li a{
     color: white;
     padding: 8px 12px;
     border-bottom: 2px solid white;
+}
+nav ul li a:hover{
+    color: #fc084d
+    ;
+}
+section{
+    margin: 20px auto; 
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 15px;
 }
