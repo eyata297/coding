@@ -1,11 +1,25 @@
 body{
 background-color: aqua;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0%;
     padding: 0%;
-    text-align: center;
     text-decoration: none;
 }
 .number{
-    position: fixed;
+    position: sticky;
+    top: 0%;
+    background-color: #ec0b0b;
+    color: aliceblue;
+padding: 0 30px;
+    height: 60px;
+   box-shadow:0 2px 5px white;
+  z-index:1000
+}
+.logo{
+    float: left;
+}
+.logo img{
+  height:40px;
+  width: auto;
+  margin-top: 10px;
 }
